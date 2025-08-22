@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>sneakers – Fall Limited Edition Sneakers</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BRlwsAql.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BYYcOhUj.css">
+</head>
+<body>
+  <!-- Inline icon sprites -->
+  <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"/></symbol>
+    <symbol id="icon-cart" viewBox="0 0 24 24"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 2h2l3.6 7.59-1.35 2.45A2 2 0 0 0 9 15h9v-2H9.42a.25.25 0 0 1-.22-.37L10.1 11h7.45a2 2 0 0 0 1.79-1.11l2.98-5.89L20.42 3 17.5 9H10.53L8.27 4.59 7.5 3H3Z"/></symbol>
+    <symbol id="icon-delete" viewBox="0 0 24 24"><path d="M6 7h12v13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7Zm3 0V5h6v2h5v2H4V7h5Zm1 4h2v7h-2v-7Zm4 0h2v7h-2v-7Z"/></symbol>
+    <symbol id="icon-minus" viewBox="0 0 24 24"><path d="M5 11h14v2H5z"/></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z"/></symbol>
+    <symbol id="icon-prev" viewBox="0 0 24 24"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></symbol>
+    <symbol id="icon-next" viewBox="0 0 24 24"><path d="M8.59 16.59 10 18l6-6-6-6-1.41 1.41L13.17 12z"/></symbol>
+  </svg>
+
+  <header class="header">
+    <div class="header__left">
+      <button class="header__menu-btn" aria-label="Open menu">
+        <svg class="icon"><use href="#icon-menu"/></svg>
+      </button>
+      <a class="logo" href="#">sneakers</a>
+      <nav class="nav">
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#" class="is-active">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <div class="header__right">
+      <button class="cart-btn" aria-label="Open cart" aria-haspopup="dialog" aria-expanded="false">
+        <svg class="icon"><use href="#icon-cart"/></svg>
+        <span class="cart-btn__badge" hidden>0</span>
+      </button>
+      <img class="avatar" src="/assets/image-avatar-DVd-Kri7.png" alt="User avatar">
+
+      <!-- Mini cart -->
+      <div class="cart" role="dialog" aria-label="Cart" hidden>
+        <div class="cart__header">Cart</div>
+        <div class="cart__body cart__empty">
+          <p>Your cart is empty.</p>
+        </div>
+        <div class="cart__body cart__filled" hidden>
+          <ul class="cart__list" aria-live="polite"></ul>
+          <button class="btn btn--primary cart__checkout">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer with real backdrop -->
+  <aside class="drawer" hidden aria-hidden="true">
+    <div class="drawer__backdrop" data-close></div>
+    <div class="drawer__panel">
+      <button class="drawer__close" aria-label="Close menu">
+        <svg class="icon"><use href="#icon-close"/></svg>
+      </button>
+      <nav class="drawer__nav">
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#" class="is-active">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </aside>
+
+  <main class="product">
+    <section class="gallery" aria-label="Product gallery">
+      <figure class="gallery__stage">
+        <img id="mainImage" src="/assets/image-product-1-D36l1Pee.jpg" alt="Fall Limited Edition Sneakers" />
+        <button class="gallery__nav gallery__nav--prev" aria-label="Previous image">
+          <svg class="icon"><use href="#icon-prev"/></svg>
+        </button>
+        <button class="gallery__nav gallery__nav--next" aria-label="Next image">
+          <svg class="icon"><use href="#icon-next"/></svg>
+        </button>
+      </figure>
+      <div class="gallery__thumbs">
+        <button class="thumb is-active" data-index="0">
+          <img src="/assets/image-product-1-thumbnail-CUE_C-rn.jpg" alt="Thumbnail 1">
+        </button>
+        <button class="thumb" data-index="1">
+          <img src="/assets/image-product-2-thumbnail-B_S5qX-D.jpg" alt="Thumbnail 2">
+        </button>
+        <button class="thumb" data-index="2">
+          <img src="/assets/image-product-3-thumbnail-DFTZEtJG.jpg" alt="Thumbnail 3">
+        </button>
+        <button class="thumb" data-index="3">
+          <img src="/assets/image-product-4-thumbnail-ByUjHEO4.jpg" alt="Thumbnail 4">
+        </button>
+      </div>
+    </section>
+
+    <section class="details">
+      <p class="details__kicker">Sneaker Company</p>
+      <h1 class="details__title">Fall Limited Edition Sneakers</h1>
+      <p class="details__desc">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole,
+        they’ll withstand everything the weather can offer.
+      </p>
+
+      <div class="price">
+        <div class="price__row">
+          <span class="price__current">$125.00</span>
+          <span class="badge badge--dark">50%</span>
+        </div>
+        <s class="price__old">$250.00</s>
+      </div>
+
+      <div class="purchase">
+        <div class="stepper" role="group" aria-label="Choose quantity">
+          <button class="stepper__btn stepper__btn--minus" aria-label="Decrease">
+            <svg class="icon"><use href="#icon-minus"/></svg>
+          </button>
+          <output class="stepper__value" id="qty" for="minus plus">0</output>
+          <button class="stepper__btn stepper__btn--plus" aria-label="Increase">
+            <svg class="icon"><use href="#icon-plus"/></svg>
+          </button>
+        </div>
+        <button class="btn btn--primary add-to-cart">
+          <svg class="icon"><use href="#icon-cart"/></svg>
+          Add to cart
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-modal="true" role="dialog" hidden>
+    <div class="lightbox__content" role="document">
+      <button class="lightbox__close" aria-label="Close">
+        <svg class="icon"><use href="#icon-close"/></svg>
+      </button>
+      <figure class="lightbox__stage">
+        <img id="lightboxImage" src="/assets/image-product-1-D36l1Pee.jpg" alt="" />
+        <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous image">
+          <svg class="icon"><use href="#icon-prev"/></svg>
+        </button>
+        <button class="lightbox__nav lightbox__nav--next" aria-label="Next image">
+          <svg class="icon"><use href="#icon-next"/></svg>
+        </button>
+      </figure>
+      <div class="lightbox__thumbs">
+        <button class="thumb is-active" data-index="0"><img src="/assets/image-product-1-thumbnail-CUE_C-rn.jpg" alt=""></button>
+        <button class="thumb" data-index="1"><img src="/assets/image-product-2-thumbnail-B_S5qX-D.jpg" alt=""></button>
+        <button class="thumb" data-index="2"><img src="/assets/image-product-3-thumbnail-DFTZEtJG.jpg" alt=""></button>
+        <button class="thumb" data-index="3"><img src="/assets/image-product-4-thumbnail-ByUjHEO4.jpg" alt=""></button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
